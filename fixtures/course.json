@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "sample",
+      "title": "Bài mẫu",
+      "lessonIds": [
+        "hello1",
+        "bye2"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "hello1",
+      "title": "Thanh ngang và lời chào",
+      "objective": "Nghe đường cao độ của thanh một và nhận ra lời chào 你好.",
+      "prerequisiteIds": [],
+      "itemIds": [
+        "tone",
+        "ma1",
+        "hello"
+      ],
+      "exercises": [
+        {
+          "id": "listen",
+          "type": "audio_choice",
+          "promptVi": "Nghe âm minh họa. Cao độ đi như thế nào?",
+          "itemIds": [
+            "tone"
+          ],
+          "choices": [
+            {
+              "id": "listen0",
+              "label": "Giữ ngang"
+            },
+            {
+              "id": "listen1",
+              "label": "Đi xuống"
+            }
+          ],
+          "answerIds": [
+            "listen0"
+          ],
+          "explanationVi": "Đường cao độ của thanh một giữ ngang."
+        },
+        {
+          "id": "greet",
+          "type": "meaning_choice",
+          "promptVi": "你好 có nghĩa là gì?",
+          "itemIds": [
+            "hello"
+          ],
+          "choices": [
+            {
+              "id": "greet0",
+              "label": "Tạm biệt"
+            },
+            {
+              "id": "greet1",
+              "label": "Xin chào"
+            }
+          ],
+          "answerIds": [
+            "greet1"
+          ],
+          "explanationVi": "xin chào"
+        }
+      ]
+    },
+    {
+      "id": "bye2",
+      "title": "Chào tạm biệt",
+      "objective": "Nhận biết 再见 khi kết thúc cuộc trò chuyện.",
+      "prerequisiteIds": [
+        "hello1"
+      ],
+      "itemIds": [
+        "bye"
+      ],
+      "exercises": [
+        {
+          "id": "bye",
+          "type": "meaning_choice",
+          "promptVi": "再见 nghĩa là gì?",
+          "itemIds": [
+            "bye"
+          ],
+          "choices": [
+            {
+              "id": "bye0",
+              "label": "Tạm biệt"
+            },
+            {
+              "id": "bye1",
+              "label": "Chào buổi sáng"
+            }
+          ],
+          "answerIds": [
+            "bye0"
+          ],
+          "explanationVi": "tạm biệt"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ma1",
+      "hanzi": "妈",
+      "pinyin": "mā",
+      "vi": "mẹ",
+      "audio": null
+    },
+    {
+      "id": "hello",
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "vi": "xin chào",
+      "audio": null
+    },
+    {
+      "id": "bye",
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "vi": "tạm biệt",
+      "audio": null
+    },
+    {
+      "id": "tone",
+      "hanzi": "一声",
+      "pinyin": "yī shēng",
+      "vi": "thanh một (âm minh họa cao độ)",
+      "audio": "audio/thanh-ngang.wav"
+    }
+  ]
+}
