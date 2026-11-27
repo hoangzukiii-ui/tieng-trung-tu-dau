@@ -1,0 +1,3 @@
+﻿PASS schema, ID, prerequisites, answer keys, 104 offline PCM WAV files
+15 lessons, 104 items, 66 questions {'tone_choice': 4, 'meaning_choice': 31, 'audio_choice': 15, 'order': 16}
+18 distinct clips in listening questions, correct positions {1: 14, 2: 12, 3: 12, 4: 12}

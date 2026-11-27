@@ -1,0 +1,3078 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Âm và chào hỏi",
+      "lessonIds": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Giao tiếp hằng ngày",
+      "lessonIds": [
+        "lesson-06",
+        "lesson-07",
+        "lesson-08",
+        "lesson-09",
+        "lesson-10"
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Đi chơi và ăn uống",
+      "lessonIds": [
+        "lesson-11",
+        "lesson-12",
+        "lesson-13",
+        "lesson-14",
+        "lesson-15"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Bắt đầu với bốn thanh",
+      "objective": "Nghe và nhận ra bốn thanh trên âm ma, rồi dùng được một câu chào.",
+      "notesVi": "Thanh 1 cao và ngang, thanh 2 đi lên, thanh 3 hạ thấp, thanh 4 đi xuống nhanh. Khi đọc riêng, thanh 3 có thể hạ rồi lên. Giữa câu, nó thường chỉ hạ thấp. Pinyin của 你好 là nǐ hǎo, nhưng khi nói liền, nǐ nghe gần như ní. Trong 谢谢, xie thứ hai là thanh nhẹ, đọc ngắn và không ghi dấu.",
+      "prerequisiteIds": [],
+      "itemIds": [
+        "lesson-01-i01",
+        "lesson-01-i02",
+        "lesson-01-i03",
+        "lesson-01-i04",
+        "lesson-01-i05",
+        "lesson-01-i06",
+        "lesson-01-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-01-q01",
+          "type": "tone_choice",
+          "promptVi": "Nghe âm ma rồi chọn thanh điệu.",
+          "itemIds": [
+            "lesson-01-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-01-q01-c03",
+              "label": "Thanh 3 — hạ thấp"
+            },
+            {
+              "id": "lesson-01-q01-c04",
+              "label": "Thanh 4 — đi xuống"
+            },
+            {
+              "id": "lesson-01-q01-c01",
+              "label": "Thanh 1 — cao và ngang"
+            },
+            {
+              "id": "lesson-01-q01-c02",
+              "label": "Thanh 2 — đi lên"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q01-c01"
+          ],
+          "explanationVi": "mā là thanh 1 — cao và ngang."
+        },
+        {
+          "id": "lesson-01-q02",
+          "type": "tone_choice",
+          "promptVi": "Nghe âm ma rồi chọn thanh điệu.",
+          "itemIds": [
+            "lesson-01-i02"
+          ],
+          "choices": [
+            {
+              "id": "lesson-01-q02-c03",
+              "label": "Thanh 3 — hạ thấp"
+            },
+            {
+              "id": "lesson-01-q02-c04",
+              "label": "Thanh 4 — đi xuống"
+            },
+            {
+              "id": "lesson-01-q02-c01",
+              "label": "Thanh 1 — cao và ngang"
+            },
+            {
+              "id": "lesson-01-q02-c02",
+              "label": "Thanh 2 — đi lên"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q02-c02"
+          ],
+          "explanationVi": "má là thanh 2 — đi lên."
+        },
+        {
+          "id": "lesson-01-q03",
+          "type": "tone_choice",
+          "promptVi": "Nghe âm ma rồi chọn thanh điệu.",
+          "itemIds": [
+            "lesson-01-i03"
+          ],
+          "choices": [
+            {
+              "id": "lesson-01-q03-c03",
+              "label": "Thanh 3 — hạ thấp"
+            },
+            {
+              "id": "lesson-01-q03-c04",
+              "label": "Thanh 4 — đi xuống"
+            },
+            {
+              "id": "lesson-01-q03-c01",
+              "label": "Thanh 1 — cao và ngang"
+            },
+            {
+              "id": "lesson-01-q03-c02",
+              "label": "Thanh 2 — đi lên"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q03-c03"
+          ],
+          "explanationVi": "mǎ là thanh 3 — hạ thấp."
+        },
+        {
+          "id": "lesson-01-q04",
+          "type": "tone_choice",
+          "promptVi": "Nghe âm ma rồi chọn thanh điệu.",
+          "itemIds": [
+            "lesson-01-i04"
+          ],
+          "choices": [
+            {
+              "id": "lesson-01-q04-c03",
+              "label": "Thanh 3 — hạ thấp"
+            },
+            {
+              "id": "lesson-01-q04-c04",
+              "label": "Thanh 4 — đi xuống"
+            },
+            {
+              "id": "lesson-01-q04-c01",
+              "label": "Thanh 1 — cao và ngang"
+            },
+            {
+              "id": "lesson-01-q04-c02",
+              "label": "Thanh 2 — đi lên"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q04-c04"
+          ],
+          "explanationVi": "mà là thanh 4 — đi xuống."
+        },
+        {
+          "id": "lesson-01-q05",
+          "type": "meaning_choice",
+          "promptVi": "«你好！» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-01-i05"
+          ],
+          "choices": [
+            {
+              "id": "lesson-01-q05-c03",
+              "label": "cây gai"
+            },
+            {
+              "id": "lesson-01-q05-c04",
+              "label": "ngựa"
+            },
+            {
+              "id": "lesson-01-q05-c01",
+              "label": "Xin chào!"
+            },
+            {
+              "id": "lesson-01-q05-c02",
+              "label": "mẹ (cách gọi)"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q05-c01"
+          ],
+          "explanationVi": "你好！ (Nǐ hǎo!) → Xin chào!"
+        },
+        {
+          "id": "lesson-01-q06",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-01-i03"
+          ],
+          "choices": [
+            {
+              "id": "lesson-01-q06-c04",
+              "label": "骂",
+              "itemId": "lesson-01-i04"
+            },
+            {
+              "id": "lesson-01-q06-c01",
+              "label": "妈",
+              "itemId": "lesson-01-i01"
+            },
+            {
+              "id": "lesson-01-q06-c02",
+              "label": "麻",
+              "itemId": "lesson-01-i02"
+            },
+            {
+              "id": "lesson-01-q06-c03",
+              "label": "马",
+              "itemId": "lesson-01-i03"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q06-c03"
+          ],
+          "explanationVi": "马 (mǎ) → ngựa"
+        },
+        {
+          "id": "lesson-01-q07",
+          "type": "order",
+          "promptVi": "Xếp câu «Xin chào, cảm ơn bạn!».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-01-q07-c02",
+              "label": "谢谢"
+            },
+            {
+              "id": "lesson-01-q07-c01",
+              "label": "你好"
+            }
+          ],
+          "answerIds": [
+            "lesson-01-q07-c01",
+            "lesson-01-q07-c02"
+          ],
+          "explanationVi": "Đáp án là 你好 谢谢."
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Chào hỏi lịch sự",
+      "objective": "Chọn lời chào, tạm biệt và đáp lại lời cảm ơn đúng tình huống.",
+      "notesVi": "Khi mới tập j/q/x, đặt đầu lưỡi gần răng dưới. So sánh j trong jiàn và q trong qǐ. Âm q có luồng hơi bật rõ hơn. Âm x trong xiè có hơi xát liên tục. Nín là cách xưng hô lịch sự.",
+      "prerequisiteIds": [
+        "lesson-01"
+      ],
+      "itemIds": [
+        "lesson-02-i01",
+        "lesson-02-i02",
+        "lesson-02-i03",
+        "lesson-02-i04",
+        "lesson-02-i05",
+        "lesson-02-i06"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-02-q01",
+          "type": "meaning_choice",
+          "promptVi": "«您好！» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-02-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-02-q01-c02",
+              "label": "Tạm biệt!"
+            },
+            {
+              "id": "lesson-02-q01-c03",
+              "label": "Không có gì!"
+            },
+            {
+              "id": "lesson-02-q01-c04",
+              "label": "Xin lỗi!"
+            },
+            {
+              "id": "lesson-02-q01-c01",
+              "label": "Xin chào ạ!"
+            }
+          ],
+          "answerIds": [
+            "lesson-02-q01-c01"
+          ],
+          "explanationVi": "您好！ (Nín hǎo!) → Xin chào ạ!"
+        },
+        {
+          "id": "lesson-02-q02",
+          "type": "meaning_choice",
+          "promptVi": "«谢谢，再见！» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-02-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-02-q02-c01",
+              "label": "Cảm ơn, tạm biệt!"
+            },
+            {
+              "id": "lesson-02-q02-c02",
+              "label": "Xin chào ạ!"
+            },
+            {
+              "id": "lesson-02-q02-c03",
+              "label": "Tạm biệt!"
+            },
+            {
+              "id": "lesson-02-q02-c04",
+              "label": "Không có gì!"
+            }
+          ],
+          "answerIds": [
+            "lesson-02-q02-c01"
+          ],
+          "explanationVi": "谢谢，再见！ (Xièxie, zàijiàn!) → Cảm ơn, tạm biệt!"
+        },
+        {
+          "id": "lesson-02-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-02-i02"
+          ],
+          "choices": [
+            {
+              "id": "lesson-02-q03-c04",
+              "label": "对不起！",
+              "itemId": "lesson-02-i04"
+            },
+            {
+              "id": "lesson-02-q03-c01",
+              "label": "再见！",
+              "itemId": "lesson-02-i02"
+            },
+            {
+              "id": "lesson-02-q03-c02",
+              "label": "您好！",
+              "itemId": "lesson-02-i01"
+            },
+            {
+              "id": "lesson-02-q03-c03",
+              "label": "不客气！",
+              "itemId": "lesson-02-i03"
+            }
+          ],
+          "answerIds": [
+            "lesson-02-q03-c01"
+          ],
+          "explanationVi": "再见！ (Zàijiàn!) → Tạm biệt!"
+        },
+        {
+          "id": "lesson-02-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Cảm ơn, tạm biệt!».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-02-q04-c02",
+              "label": "再见"
+            },
+            {
+              "id": "lesson-02-q04-c01",
+              "label": "谢谢"
+            }
+          ],
+          "answerIds": [
+            "lesson-02-q04-c01",
+            "lesson-02-q04-c02"
+          ],
+          "explanationVi": "Đáp án là 谢谢 再见."
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Tên bạn là gì?",
+      "objective": "Hỏi tên và giới thiệu tên mình bằng một câu.",
+      "notesVi": "什么 đứng ở vị trí câu trả lời. Trong câu hỏi tên, thay phần tên bằng 什么名字. Trong 名字, zi là thanh nhẹ.",
+      "prerequisiteIds": [
+        "lesson-02"
+      ],
+      "itemIds": [
+        "lesson-03-i01",
+        "lesson-03-i02",
+        "lesson-03-i03",
+        "lesson-03-i04",
+        "lesson-03-i05",
+        "lesson-03-i06",
+        "lesson-03-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-03-q01",
+          "type": "meaning_choice",
+          "promptVi": "«我» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-03-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-03-q01-c01",
+              "label": "tôi"
+            },
+            {
+              "id": "lesson-03-q01-c02",
+              "label": "bạn"
+            },
+            {
+              "id": "lesson-03-q01-c03",
+              "label": "tên là, gọi là"
+            },
+            {
+              "id": "lesson-03-q01-c04",
+              "label": "tên"
+            }
+          ],
+          "answerIds": [
+            "lesson-03-q01-c01"
+          ],
+          "explanationVi": "我 (wǒ) → tôi"
+        },
+        {
+          "id": "lesson-03-q02",
+          "type": "meaning_choice",
+          "promptVi": "«你叫什么名字？» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-03-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-03-q02-c04",
+              "label": "tên là, gọi là"
+            },
+            {
+              "id": "lesson-03-q02-c01",
+              "label": "Bạn tên là gì?"
+            },
+            {
+              "id": "lesson-03-q02-c02",
+              "label": "tôi"
+            },
+            {
+              "id": "lesson-03-q02-c03",
+              "label": "bạn"
+            }
+          ],
+          "answerIds": [
+            "lesson-03-q02-c01"
+          ],
+          "explanationVi": "你叫什么名字？ (Nǐ jiào shénme míngzi?) → Bạn tên là gì?"
+        },
+        {
+          "id": "lesson-03-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-03-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-03-q03-c03",
+              "label": "你",
+              "itemId": "lesson-03-i02"
+            },
+            {
+              "id": "lesson-03-q03-c04",
+              "label": "叫",
+              "itemId": "lesson-03-i03"
+            },
+            {
+              "id": "lesson-03-q03-c01",
+              "label": "我叫小安。",
+              "itemId": "lesson-03-i06"
+            },
+            {
+              "id": "lesson-03-q03-c02",
+              "label": "我",
+              "itemId": "lesson-03-i01"
+            }
+          ],
+          "answerIds": [
+            "lesson-03-q03-c01"
+          ],
+          "explanationVi": "我叫小安。 (Wǒ jiào Xiǎo'ān.) → Mình tên là Tiểu An."
+        },
+        {
+          "id": "lesson-03-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Bạn tên là gì?».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-03-q04-c02",
+              "label": "叫"
+            },
+            {
+              "id": "lesson-03-q04-c03",
+              "label": "什么"
+            },
+            {
+              "id": "lesson-03-q04-c04",
+              "label": "名字"
+            },
+            {
+              "id": "lesson-03-q04-c01",
+              "label": "你"
+            }
+          ],
+          "answerIds": [
+            "lesson-03-q04-c01",
+            "lesson-03-q04-c02",
+            "lesson-03-q04-c03",
+            "lesson-03-q04-c04"
+          ],
+          "explanationVi": "Đáp án là 你 叫 什么 名字."
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "title": "Đếm từ 0 đến 10",
+      "objective": "Đọc dãy số 0–10 và nhận ra các cặp số khi nghe.",
+      "notesVi": "Học số theo nhóm ngắn. Khi đọc chữ số riêng lẻ, 一 đọc yī. Với 四 sì, để đầu lưỡi gần răng trên. Với 十 shí, đưa đầu lưỡi lùi hơn để phân biệt.",
+      "prerequisiteIds": [
+        "lesson-03"
+      ],
+      "itemIds": [
+        "lesson-04-i01",
+        "lesson-04-i02",
+        "lesson-04-i03",
+        "lesson-04-i04",
+        "lesson-04-i05",
+        "lesson-04-i06",
+        "lesson-04-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-04-q01",
+          "type": "meaning_choice",
+          "promptVi": "«零、一» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-04-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-04-q01-c04",
+              "label": "6, 7"
+            },
+            {
+              "id": "lesson-04-q01-c01",
+              "label": "0, 1"
+            },
+            {
+              "id": "lesson-04-q01-c02",
+              "label": "2, 3"
+            },
+            {
+              "id": "lesson-04-q01-c03",
+              "label": "4, 5"
+            }
+          ],
+          "answerIds": [
+            "lesson-04-q01-c01"
+          ],
+          "explanationVi": "零、一 (líng, yī) → 0, 1"
+        },
+        {
+          "id": "lesson-04-q02",
+          "type": "meaning_choice",
+          "promptVi": "«一、二、三！» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-04-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-04-q02-c03",
+              "label": "2, 3"
+            },
+            {
+              "id": "lesson-04-q02-c04",
+              "label": "4, 5"
+            },
+            {
+              "id": "lesson-04-q02-c01",
+              "label": "Một, hai, ba!"
+            },
+            {
+              "id": "lesson-04-q02-c02",
+              "label": "0, 1"
+            }
+          ],
+          "answerIds": [
+            "lesson-04-q02-c01"
+          ],
+          "explanationVi": "一、二、三！ (Yī, èr, sān!) → Một, hai, ba!"
+        },
+        {
+          "id": "lesson-04-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-04-i04"
+          ],
+          "choices": [
+            {
+              "id": "lesson-04-q03-c02",
+              "label": "零、一",
+              "itemId": "lesson-04-i01"
+            },
+            {
+              "id": "lesson-04-q03-c03",
+              "label": "二、三",
+              "itemId": "lesson-04-i02"
+            },
+            {
+              "id": "lesson-04-q03-c04",
+              "label": "四、五",
+              "itemId": "lesson-04-i03"
+            },
+            {
+              "id": "lesson-04-q03-c01",
+              "label": "六、七",
+              "itemId": "lesson-04-i04"
+            }
+          ],
+          "answerIds": [
+            "lesson-04-q03-c01"
+          ],
+          "explanationVi": "六、七 (liù, qī) → 6, 7"
+        },
+        {
+          "id": "lesson-04-q04",
+          "type": "order",
+          "promptVi": "Xếp ba số từ 8 đến 10 theo thứ tự tăng dần.",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-04-q04-c02",
+              "label": "九"
+            },
+            {
+              "id": "lesson-04-q04-c03",
+              "label": "十"
+            },
+            {
+              "id": "lesson-04-q04-c01",
+              "label": "八"
+            }
+          ],
+          "answerIds": [
+            "lesson-04-q04-c01",
+            "lesson-04-q04-c02",
+            "lesson-04-q04-c03"
+          ],
+          "explanationVi": "Đáp án là 八 九 十."
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "title": "Gặp bạn mới",
+      "objective": "Xếp đúng thứ tự chào, hỏi tên, giới thiệu và chào tạm biệt.",
+      "notesVi": "Ôn các câu đã gặp và nối lượt lời. Trong 认识, shi là thanh nhẹ. Đầu lưỡi lùi nhẹ khi tập zh/ch/sh. So sánh zh trong 这 (zhè), ch trong 吃 (chī) và sh trong 是 (shì). Âm ch bật hơi, sh là âm xát.",
+      "prerequisiteIds": [
+        "lesson-04"
+      ],
+      "itemIds": [
+        "lesson-05-i01",
+        "lesson-05-i02",
+        "lesson-05-i03",
+        "lesson-05-i04",
+        "lesson-05-i05",
+        "lesson-05-i06"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-05-q01",
+          "type": "meaning_choice",
+          "promptVi": "«认识» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-05-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-05-q01-c03",
+              "label": "rất"
+            },
+            {
+              "id": "lesson-05-q01-c04",
+              "label": "cũng"
+            },
+            {
+              "id": "lesson-05-q01-c01",
+              "label": "quen, biết (một người)"
+            },
+            {
+              "id": "lesson-05-q01-c02",
+              "label": "vui"
+            }
+          ],
+          "answerIds": [
+            "lesson-05-q01-c01"
+          ],
+          "explanationVi": "认识 (rènshi) → quen, biết (một người)"
+        },
+        {
+          "id": "lesson-05-q02",
+          "type": "meaning_choice",
+          "promptVi": "«我也很高兴。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-05-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-05-q02-c02",
+              "label": "quen, biết (một người)"
+            },
+            {
+              "id": "lesson-05-q02-c03",
+              "label": "vui"
+            },
+            {
+              "id": "lesson-05-q02-c04",
+              "label": "rất"
+            },
+            {
+              "id": "lesson-05-q02-c01",
+              "label": "Mình cũng rất vui."
+            }
+          ],
+          "answerIds": [
+            "lesson-05-q02-c01"
+          ],
+          "explanationVi": "我也很高兴。 (Wǒ yě hěn gāoxìng.) → Mình cũng rất vui."
+        },
+        {
+          "id": "lesson-05-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-05-i05"
+          ],
+          "choices": [
+            {
+              "id": "lesson-05-q03-c01",
+              "label": "很高兴认识你。",
+              "itemId": "lesson-05-i05"
+            },
+            {
+              "id": "lesson-05-q03-c02",
+              "label": "认识",
+              "itemId": "lesson-05-i01"
+            },
+            {
+              "id": "lesson-05-q03-c03",
+              "label": "高兴",
+              "itemId": "lesson-05-i02"
+            },
+            {
+              "id": "lesson-05-q03-c04",
+              "label": "很",
+              "itemId": "lesson-05-i03"
+            }
+          ],
+          "answerIds": [
+            "lesson-05-q03-c01"
+          ],
+          "explanationVi": "很高兴认识你。 (Hěn gāoxìng rènshi nǐ.) → Rất vui được gặp bạn."
+        },
+        {
+          "id": "lesson-05-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Rất vui được gặp bạn».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-05-q04-c04",
+              "label": "你"
+            },
+            {
+              "id": "lesson-05-q04-c01",
+              "label": "很"
+            },
+            {
+              "id": "lesson-05-q04-c02",
+              "label": "高兴"
+            },
+            {
+              "id": "lesson-05-q04-c03",
+              "label": "认识"
+            }
+          ],
+          "answerIds": [
+            "lesson-05-q04-c01",
+            "lesson-05-q04-c02",
+            "lesson-05-q04-c03",
+            "lesson-05-q04-c04"
+          ],
+          "explanationVi": "Đáp án là 很 高兴 认识 你."
+        },
+        {
+          "id": "lesson-05-q05",
+          "type": "order",
+          "promptVi": "Xếp bốn lượt theo tiến trình: chào → hỏi tên → giới thiệu tên → tạm biệt.",
+          "itemIds": [
+            "lesson-02-i01",
+            "lesson-03-i07",
+            "lesson-03-i06",
+            "lesson-02-i02"
+          ],
+          "choices": [
+            {
+              "id": "lesson-05-q05-c03",
+              "label": "B · 我叫小安。"
+            },
+            {
+              "id": "lesson-05-q05-c04",
+              "label": "A · 再见！"
+            },
+            {
+              "id": "lesson-05-q05-c01",
+              "label": "A · 您好！"
+            },
+            {
+              "id": "lesson-05-q05-c02",
+              "label": "A · 你叫什么名字？"
+            }
+          ],
+          "answerIds": [
+            "lesson-05-q05-c01",
+            "lesson-05-q05-c02",
+            "lesson-05-q05-c03",
+            "lesson-05-q05-c04"
+          ],
+          "explanationVi": "您好 dùng để chào. Hỏi tên với 你叫什么名字？, trả lời 我叫小安。, rồi nói 再见 để tạm biệt."
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "title": "Số và tuổi",
+      "objective": "Ghép số hàng chục, hỏi tuổi và nói mình bao nhiêu tuổi.",
+      "notesVi": "Số 11 là 十一, số 20 là 二十, số 21 là 二十一. 几岁 thường dùng khi hỏi trẻ em hoặc hỏi tuổi nhỏ. Ở đây học mẫu hỏi tuổi để hiểu cấu trúc.",
+      "prerequisiteIds": [
+        "lesson-05"
+      ],
+      "itemIds": [
+        "lesson-06-i01",
+        "lesson-06-i02",
+        "lesson-06-i03",
+        "lesson-06-i04",
+        "lesson-06-i05",
+        "lesson-06-i06",
+        "lesson-06-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-06-q01",
+          "type": "meaning_choice",
+          "promptVi": "«十一» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-06-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-06-q01-c02",
+              "label": "20"
+            },
+            {
+              "id": "lesson-06-q01-c03",
+              "label": "21"
+            },
+            {
+              "id": "lesson-06-q01-c04",
+              "label": "mấy"
+            },
+            {
+              "id": "lesson-06-q01-c01",
+              "label": "11"
+            }
+          ],
+          "answerIds": [
+            "lesson-06-q01-c01"
+          ],
+          "explanationVi": "十一 (shíyī) → 11"
+        },
+        {
+          "id": "lesson-06-q02",
+          "type": "meaning_choice",
+          "promptVi": "«我二十岁。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-06-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-06-q02-c01",
+              "label": "Mình 20 tuổi."
+            },
+            {
+              "id": "lesson-06-q02-c02",
+              "label": "11"
+            },
+            {
+              "id": "lesson-06-q02-c03",
+              "label": "20"
+            },
+            {
+              "id": "lesson-06-q02-c04",
+              "label": "21"
+            }
+          ],
+          "answerIds": [
+            "lesson-06-q02-c01"
+          ],
+          "explanationVi": "我二十岁。 (Wǒ èrshí suì.) → Mình 20 tuổi."
+        },
+        {
+          "id": "lesson-06-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-06-i03"
+          ],
+          "choices": [
+            {
+              "id": "lesson-06-q03-c04",
+              "label": "几",
+              "itemId": "lesson-06-i04"
+            },
+            {
+              "id": "lesson-06-q03-c01",
+              "label": "二十一",
+              "itemId": "lesson-06-i03"
+            },
+            {
+              "id": "lesson-06-q03-c02",
+              "label": "十一",
+              "itemId": "lesson-06-i01"
+            },
+            {
+              "id": "lesson-06-q03-c03",
+              "label": "二十",
+              "itemId": "lesson-06-i02"
+            }
+          ],
+          "answerIds": [
+            "lesson-06-q03-c01"
+          ],
+          "explanationVi": "二十一 (èrshíyī) → 21"
+        },
+        {
+          "id": "lesson-06-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Mình 20 tuổi».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-06-q04-c03",
+              "label": "岁"
+            },
+            {
+              "id": "lesson-06-q04-c01",
+              "label": "我"
+            },
+            {
+              "id": "lesson-06-q04-c02",
+              "label": "二十"
+            }
+          ],
+          "answerIds": [
+            "lesson-06-q04-c01",
+            "lesson-06-q04-c02",
+            "lesson-06-q04-c03"
+          ],
+          "explanationVi": "Đáp án là 我 二十 岁."
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "title": "Gia đình mình",
+      "objective": "Giới thiệu và nhận ra cách gọi những người trong gia đình.",
+      "notesVi": "Trong 爸爸, 妈妈 và 姐姐, đọc âm tiết thứ hai nhẹ và ngắn. Lượng từ 口 thường dùng để đếm thành viên gia đình. Mẫu 有 + số + 口 + 人 dùng để nói nhà có bao nhiêu người.",
+      "prerequisiteIds": [
+        "lesson-06"
+      ],
+      "itemIds": [
+        "lesson-07-i01",
+        "lesson-07-i02",
+        "lesson-07-i03",
+        "lesson-07-i04",
+        "lesson-07-i05",
+        "lesson-07-i06",
+        "lesson-07-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-07-q01",
+          "type": "meaning_choice",
+          "promptVi": "«爸爸» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-07-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-07-q01-c01",
+              "label": "bố"
+            },
+            {
+              "id": "lesson-07-q01-c02",
+              "label": "mẹ"
+            },
+            {
+              "id": "lesson-07-q01-c03",
+              "label": "chị gái"
+            },
+            {
+              "id": "lesson-07-q01-c04",
+              "label": "nhà, gia đình"
+            }
+          ],
+          "answerIds": [
+            "lesson-07-q01-c01"
+          ],
+          "explanationVi": "爸爸 (bàba) → bố"
+        },
+        {
+          "id": "lesson-07-q02",
+          "type": "meaning_choice",
+          "promptVi": "«我家有三口人。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-07-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-07-q02-c04",
+              "label": "chị gái"
+            },
+            {
+              "id": "lesson-07-q02-c01",
+              "label": "Nhà mình có ba người."
+            },
+            {
+              "id": "lesson-07-q02-c02",
+              "label": "bố"
+            },
+            {
+              "id": "lesson-07-q02-c03",
+              "label": "mẹ"
+            }
+          ],
+          "answerIds": [
+            "lesson-07-q02-c01"
+          ],
+          "explanationVi": "我家有三口人。 (Wǒ jiā yǒu sān kǒu rén.) → Nhà mình có ba người."
+        },
+        {
+          "id": "lesson-07-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-07-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-07-q03-c03",
+              "label": "妈妈",
+              "itemId": "lesson-07-i02"
+            },
+            {
+              "id": "lesson-07-q03-c04",
+              "label": "姐姐",
+              "itemId": "lesson-07-i03"
+            },
+            {
+              "id": "lesson-07-q03-c01",
+              "label": "我家有三口人。",
+              "itemId": "lesson-07-i07"
+            },
+            {
+              "id": "lesson-07-q03-c02",
+              "label": "爸爸",
+              "itemId": "lesson-07-i01"
+            }
+          ],
+          "answerIds": [
+            "lesson-07-q03-c01"
+          ],
+          "explanationVi": "我家有三口人。 (Wǒ jiā yǒu sān kǒu rén.) → Nhà mình có ba người."
+        },
+        {
+          "id": "lesson-07-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Nhà mình có ba người».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-07-q04-c05",
+              "label": "人"
+            },
+            {
+              "id": "lesson-07-q04-c01",
+              "label": "我家"
+            },
+            {
+              "id": "lesson-07-q04-c02",
+              "label": "有"
+            },
+            {
+              "id": "lesson-07-q04-c03",
+              "label": "三"
+            },
+            {
+              "id": "lesson-07-q04-c04",
+              "label": "口"
+            }
+          ],
+          "answerIds": [
+            "lesson-07-q04-c01",
+            "lesson-07-q04-c02",
+            "lesson-07-q04-c03",
+            "lesson-07-q04-c04",
+            "lesson-07-q04-c05"
+          ],
+          "explanationVi": "Đáp án là 我家 有 三 口 人."
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "title": "Hỏi giờ và ngày",
+      "objective": "Hỏi giờ và trả lời bằng một giờ cụ thể, rồi nói ngày mai là thứ mấy.",
+      "notesVi": "Thứ Hai là 星期一. Tiếng Trung đặt 星期 trước số chỉ thứ. Dùng 两点 để nói hai giờ. 二 vẫn dùng khi đọc số theo thứ tự hoặc trong 二十.",
+      "prerequisiteIds": [
+        "lesson-07"
+      ],
+      "itemIds": [
+        "lesson-08-i01",
+        "lesson-08-i02",
+        "lesson-08-i03",
+        "lesson-08-i04",
+        "lesson-08-i05",
+        "lesson-08-i06",
+        "lesson-08-i07",
+        "lesson-08-i08"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-08-q01",
+          "type": "meaning_choice",
+          "promptVi": "«今天» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-08-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-08-q01-c04",
+              "label": "giờ (khi nói mấy giờ)"
+            },
+            {
+              "id": "lesson-08-q01-c01",
+              "label": "hôm nay"
+            },
+            {
+              "id": "lesson-08-q01-c02",
+              "label": "ngày mai"
+            },
+            {
+              "id": "lesson-08-q01-c03",
+              "label": "tuần, thứ trong tuần"
+            }
+          ],
+          "answerIds": [
+            "lesson-08-q01-c01"
+          ],
+          "explanationVi": "今天 (jīntiān) → hôm nay"
+        },
+        {
+          "id": "lesson-08-q02",
+          "type": "meaning_choice",
+          "promptVi": "«明天星期一。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-08-i08"
+          ],
+          "choices": [
+            {
+              "id": "lesson-08-q02-c03",
+              "label": "ngày mai"
+            },
+            {
+              "id": "lesson-08-q02-c04",
+              "label": "tuần, thứ trong tuần"
+            },
+            {
+              "id": "lesson-08-q02-c01",
+              "label": "Ngày mai là thứ Hai."
+            },
+            {
+              "id": "lesson-08-q02-c02",
+              "label": "hôm nay"
+            }
+          ],
+          "answerIds": [
+            "lesson-08-q02-c01"
+          ],
+          "explanationVi": "明天星期一。 (Míngtiān xīngqīyī.) → Ngày mai là thứ Hai."
+        },
+        {
+          "id": "lesson-08-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-08-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-08-q03-c02",
+              "label": "现在几点？",
+              "itemId": "lesson-08-i06"
+            },
+            {
+              "id": "lesson-08-q03-c03",
+              "label": "明天星期一。",
+              "itemId": "lesson-08-i08"
+            },
+            {
+              "id": "lesson-08-q03-c01",
+              "label": "现在两点。",
+              "itemId": "lesson-08-i07"
+            }
+          ],
+          "answerIds": [
+            "lesson-08-q03-c01"
+          ],
+          "explanationVi": "现在两点。 (Xiànzài liǎng diǎn.) → Bây giờ là hai giờ."
+        },
+        {
+          "id": "lesson-08-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Bây giờ là mấy giờ?».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-08-q04-c03",
+              "label": "点"
+            },
+            {
+              "id": "lesson-08-q04-c01",
+              "label": "现在"
+            },
+            {
+              "id": "lesson-08-q04-c02",
+              "label": "几"
+            }
+          ],
+          "answerIds": [
+            "lesson-08-q04-c01",
+            "lesson-08-q04-c02",
+            "lesson-08-q04-c03"
+          ],
+          "explanationVi": "Đáp án là 现在 几 点."
+        }
+      ]
+    },
+    {
+      "id": "lesson-09",
+      "title": "Hỏi với 吗 và từ để hỏi",
+      "objective": "Đổi một câu kể thành câu hỏi có–không và biết đặt 谁 hoặc 哪里 vào câu.",
+      "notesVi": "Thêm 吗 thanh nhẹ cuối câu kể để hỏi có–không. Dùng 谁 ở chỗ cần điền người và 哪里 ở chỗ cần điền nơi. Ở bài này, 谁 đọc shéi. Trong 哪里, hai thanh 3 đứng liền, nên nǎ đọc gần như ná.",
+      "prerequisiteIds": [
+        "lesson-08"
+      ],
+      "itemIds": [
+        "lesson-09-i01",
+        "lesson-09-i02",
+        "lesson-09-i03",
+        "lesson-09-i04",
+        "lesson-09-i05",
+        "lesson-09-i06",
+        "lesson-09-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-09-q01",
+          "type": "meaning_choice",
+          "promptVi": "«吗» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-09-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-09-q01-c03",
+              "label": "ai"
+            },
+            {
+              "id": "lesson-09-q01-c04",
+              "label": "ở đâu, đâu"
+            },
+            {
+              "id": "lesson-09-q01-c01",
+              "label": "không, à (trợ từ cuối câu hỏi)"
+            },
+            {
+              "id": "lesson-09-q01-c02",
+              "label": "là"
+            }
+          ],
+          "answerIds": [
+            "lesson-09-q01-c01"
+          ],
+          "explanationVi": "吗 (ma) → không, à (trợ từ cuối câu hỏi)"
+        },
+        {
+          "id": "lesson-09-q02",
+          "type": "meaning_choice",
+          "promptVi": "«你在哪里？» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-09-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-09-q02-c02",
+              "label": "không, à (trợ từ cuối câu hỏi)"
+            },
+            {
+              "id": "lesson-09-q02-c03",
+              "label": "là"
+            },
+            {
+              "id": "lesson-09-q02-c04",
+              "label": "ai"
+            },
+            {
+              "id": "lesson-09-q02-c01",
+              "label": "Bạn đang ở đâu?"
+            }
+          ],
+          "answerIds": [
+            "lesson-09-q02-c01"
+          ],
+          "explanationVi": "你在哪里？ (Nǐ zài nǎlǐ?) → Bạn đang ở đâu?"
+        },
+        {
+          "id": "lesson-09-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-09-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-09-q03-c01",
+              "label": "你在家吗？",
+              "itemId": "lesson-09-i06"
+            },
+            {
+              "id": "lesson-09-q03-c02",
+              "label": "吗",
+              "itemId": "lesson-09-i01"
+            },
+            {
+              "id": "lesson-09-q03-c03",
+              "label": "是",
+              "itemId": "lesson-09-i02"
+            },
+            {
+              "id": "lesson-09-q03-c04",
+              "label": "谁",
+              "itemId": "lesson-09-i03"
+            }
+          ],
+          "answerIds": [
+            "lesson-09-q03-c01"
+          ],
+          "explanationVi": "你在家吗？ (Nǐ zài jiā ma?) → Bạn có ở nhà không?"
+        },
+        {
+          "id": "lesson-09-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Bạn có ở nhà không?».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-09-q04-c04",
+              "label": "吗"
+            },
+            {
+              "id": "lesson-09-q04-c01",
+              "label": "你"
+            },
+            {
+              "id": "lesson-09-q04-c02",
+              "label": "在"
+            },
+            {
+              "id": "lesson-09-q04-c03",
+              "label": "家"
+            }
+          ],
+          "answerIds": [
+            "lesson-09-q04-c01",
+            "lesson-09-q04-c02",
+            "lesson-09-q04-c03",
+            "lesson-09-q04-c04"
+          ],
+          "explanationVi": "Đáp án là 你 在 家 吗."
+        }
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "title": "Hội thoại sau giờ học",
+      "objective": "Nối một lời hỏi thăm với câu trả lời và một lời rủ đi uống nước.",
+      "notesVi": "Thử nói theo hai lượt. Người A hỏi 你今天忙吗？ Người B đáp 今天不忙。 Sau đó đổi vai và dùng 一起. Trong lời nói, 不 đứng trước thanh 4 thường đọc bú, như 不客气. Từ điển ghi 不 là bù.",
+      "prerequisiteIds": [
+        "lesson-09"
+      ],
+      "itemIds": [
+        "lesson-10-i01",
+        "lesson-10-i02",
+        "lesson-10-i03",
+        "lesson-10-i04",
+        "lesson-10-i05",
+        "lesson-10-i06",
+        "lesson-10-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-10-q01",
+          "type": "meaning_choice",
+          "promptVi": "«忙» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-10-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-10-q01-c02",
+              "label": "cùng nhau"
+            },
+            {
+              "id": "lesson-10-q01-c03",
+              "label": "đi"
+            },
+            {
+              "id": "lesson-10-q01-c04",
+              "label": "uống nước"
+            },
+            {
+              "id": "lesson-10-q01-c01",
+              "label": "bận"
+            }
+          ],
+          "answerIds": [
+            "lesson-10-q01-c01"
+          ],
+          "explanationVi": "忙 (máng) → bận"
+        },
+        {
+          "id": "lesson-10-q02",
+          "type": "meaning_choice",
+          "promptVi": "«一起去喝水吧。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-10-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-10-q02-c01",
+              "label": "Cùng đi uống nước nhé."
+            },
+            {
+              "id": "lesson-10-q02-c02",
+              "label": "bận"
+            },
+            {
+              "id": "lesson-10-q02-c03",
+              "label": "cùng nhau"
+            },
+            {
+              "id": "lesson-10-q02-c04",
+              "label": "đi"
+            }
+          ],
+          "answerIds": [
+            "lesson-10-q02-c01"
+          ],
+          "explanationVi": "一起去喝水吧。 (Yìqǐ qù hē shuǐ ba.) → Cùng đi uống nước nhé."
+        },
+        {
+          "id": "lesson-10-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-10-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-10-q03-c03",
+              "label": "今天不忙。",
+              "itemId": "lesson-10-i06"
+            },
+            {
+              "id": "lesson-10-q03-c01",
+              "label": "一起去喝水吧。",
+              "itemId": "lesson-10-i07"
+            },
+            {
+              "id": "lesson-10-q03-c02",
+              "label": "你今天忙吗？",
+              "itemId": "lesson-10-i05"
+            }
+          ],
+          "answerIds": [
+            "lesson-10-q03-c01"
+          ],
+          "explanationVi": "一起去喝水吧。 (Yìqǐ qù hē shuǐ ba.) → Cùng đi uống nước nhé."
+        },
+        {
+          "id": "lesson-10-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Cùng đi uống nước nhé».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-10-q04-c03",
+              "label": "喝水"
+            },
+            {
+              "id": "lesson-10-q04-c04",
+              "label": "吧"
+            },
+            {
+              "id": "lesson-10-q04-c01",
+              "label": "一起"
+            },
+            {
+              "id": "lesson-10-q04-c02",
+              "label": "去"
+            }
+          ],
+          "answerIds": [
+            "lesson-10-q04-c01",
+            "lesson-10-q04-c02",
+            "lesson-10-q04-c03",
+            "lesson-10-q04-c04"
+          ],
+          "explanationVi": "Đáp án là 一起 去 喝水 吧."
+        },
+        {
+          "id": "lesson-10-q05",
+          "type": "meaning_choice",
+          "promptVi": "Ôn lại: «现在几点？» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-08-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-10-q05-c02",
+              "label": "Hôm nay bạn có bận không?"
+            },
+            {
+              "id": "lesson-10-q05-c03",
+              "label": "Hôm nay mình không bận."
+            },
+            {
+              "id": "lesson-10-q05-c04",
+              "label": "Cùng đi uống nước nhé."
+            },
+            {
+              "id": "lesson-10-q05-c01",
+              "label": "Bây giờ là mấy giờ?"
+            }
+          ],
+          "answerIds": [
+            "lesson-10-q05-c01"
+          ],
+          "explanationVi": "现在几点？ (Xiànzài jǐ diǎn?) → Bây giờ là mấy giờ?"
+        }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "title": "Gọi món ở quán",
+      "objective": "Gọi một ly và một phần đồ ăn bằng số lượng phù hợp.",
+      "notesVi": "Mẫu gọi món là 要 + số + lượng từ + món. 杯 đếm ly đồ uống, 碗 đếm bát. 一 đứng trước 杯 thanh 1 thường đọc yì, còn trước 碗 thanh 3 cũng đọc yì. Từ điển ghi 一 là yī.",
+      "prerequisiteIds": [
+        "lesson-10"
+      ],
+      "itemIds": [
+        "lesson-11-i01",
+        "lesson-11-i02",
+        "lesson-11-i03",
+        "lesson-11-i04",
+        "lesson-11-i05",
+        "lesson-11-i06",
+        "lesson-11-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-11-q01",
+          "type": "meaning_choice",
+          "promptVi": "«要» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-11-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-11-q01-c01",
+              "label": "muốn, gọi (món)"
+            },
+            {
+              "id": "lesson-11-q01-c02",
+              "label": "ly, lượng từ cho đồ uống"
+            },
+            {
+              "id": "lesson-11-q01-c03",
+              "label": "trà"
+            },
+            {
+              "id": "lesson-11-q01-c04",
+              "label": "bát, lượng từ cho phần trong bát"
+            }
+          ],
+          "answerIds": [
+            "lesson-11-q01-c01"
+          ],
+          "explanationVi": "要 (yào) → muốn, gọi (món)"
+        },
+        {
+          "id": "lesson-11-q02",
+          "type": "meaning_choice",
+          "promptVi": "«我要一碗米饭。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-11-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-11-q02-c04",
+              "label": "trà"
+            },
+            {
+              "id": "lesson-11-q02-c01",
+              "label": "Cho mình một bát cơm."
+            },
+            {
+              "id": "lesson-11-q02-c02",
+              "label": "muốn, gọi (món)"
+            },
+            {
+              "id": "lesson-11-q02-c03",
+              "label": "ly, lượng từ cho đồ uống"
+            }
+          ],
+          "answerIds": [
+            "lesson-11-q02-c01"
+          ],
+          "explanationVi": "我要一碗米饭。 (Wǒ yào yì wǎn mǐfàn.) → Cho mình một bát cơm."
+        },
+        {
+          "id": "lesson-11-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-11-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-11-q03-c03",
+              "label": "杯",
+              "itemId": "lesson-11-i02"
+            },
+            {
+              "id": "lesson-11-q03-c04",
+              "label": "茶",
+              "itemId": "lesson-11-i03"
+            },
+            {
+              "id": "lesson-11-q03-c01",
+              "label": "我要一杯茶。",
+              "itemId": "lesson-11-i06"
+            },
+            {
+              "id": "lesson-11-q03-c02",
+              "label": "要",
+              "itemId": "lesson-11-i01"
+            }
+          ],
+          "answerIds": [
+            "lesson-11-q03-c01"
+          ],
+          "explanationVi": "我要一杯茶。 (Wǒ yào yì bēi chá.) → Cho mình một ly trà."
+        },
+        {
+          "id": "lesson-11-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Cho mình một ly trà».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-11-q04-c02",
+              "label": "要"
+            },
+            {
+              "id": "lesson-11-q04-c03",
+              "label": "一杯"
+            },
+            {
+              "id": "lesson-11-q04-c04",
+              "label": "茶"
+            },
+            {
+              "id": "lesson-11-q04-c01",
+              "label": "我"
+            }
+          ],
+          "answerIds": [
+            "lesson-11-q04-c01",
+            "lesson-11-q04-c02",
+            "lesson-11-q04-c03",
+            "lesson-11-q04-c04"
+          ],
+          "explanationVi": "Đáp án là 我 要 一杯 茶."
+        }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "title": "Hỏi giá",
+      "objective": "Hỏi giá một món và hiểu câu trả lời bằng số và đơn vị tiền.",
+      "notesVi": "多少钱 hỏi giá cả. 块 là cách nói thông dụng cho đơn vị tệ. Trong 这个, 个 là lượng từ chung và đọc thanh nhẹ.",
+      "prerequisiteIds": [
+        "lesson-11"
+      ],
+      "itemIds": [
+        "lesson-12-i01",
+        "lesson-12-i02",
+        "lesson-12-i03",
+        "lesson-12-i04",
+        "lesson-12-i05",
+        "lesson-12-i06",
+        "lesson-12-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-12-q01",
+          "type": "meaning_choice",
+          "promptVi": "«这个» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-12-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-12-q01-c04",
+              "label": "tệ (cách nói thông dụng)"
+            },
+            {
+              "id": "lesson-12-q01-c01",
+              "label": "cái này"
+            },
+            {
+              "id": "lesson-12-q01-c02",
+              "label": "bao nhiêu"
+            },
+            {
+              "id": "lesson-12-q01-c03",
+              "label": "tiền"
+            }
+          ],
+          "answerIds": [
+            "lesson-12-q01-c01"
+          ],
+          "explanationVi": "这个 (zhège) → cái này"
+        },
+        {
+          "id": "lesson-12-q02",
+          "type": "meaning_choice",
+          "promptVi": "«二十块。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-12-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-12-q02-c03",
+              "label": "bao nhiêu"
+            },
+            {
+              "id": "lesson-12-q02-c04",
+              "label": "tiền"
+            },
+            {
+              "id": "lesson-12-q02-c01",
+              "label": "Hai mươi tệ."
+            },
+            {
+              "id": "lesson-12-q02-c02",
+              "label": "cái này"
+            }
+          ],
+          "answerIds": [
+            "lesson-12-q02-c01"
+          ],
+          "explanationVi": "二十块。 (Èrshí kuài.) → Hai mươi tệ."
+        },
+        {
+          "id": "lesson-12-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-12-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-12-q03-c02",
+              "label": "这个",
+              "itemId": "lesson-12-i01"
+            },
+            {
+              "id": "lesson-12-q03-c03",
+              "label": "多少",
+              "itemId": "lesson-12-i02"
+            },
+            {
+              "id": "lesson-12-q03-c04",
+              "label": "钱",
+              "itemId": "lesson-12-i03"
+            },
+            {
+              "id": "lesson-12-q03-c01",
+              "label": "这个多少钱？",
+              "itemId": "lesson-12-i06"
+            }
+          ],
+          "answerIds": [
+            "lesson-12-q03-c01"
+          ],
+          "explanationVi": "这个多少钱？ (Zhège duōshǎo qián?) → Cái này bao nhiêu tiền?"
+        },
+        {
+          "id": "lesson-12-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Cái này bao nhiêu tiền?».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-12-q04-c03",
+              "label": "钱"
+            },
+            {
+              "id": "lesson-12-q04-c01",
+              "label": "这个"
+            },
+            {
+              "id": "lesson-12-q04-c02",
+              "label": "多少"
+            }
+          ],
+          "answerIds": [
+            "lesson-12-q04-c01",
+            "lesson-12-q04-c02",
+            "lesson-12-q04-c03"
+          ],
+          "explanationVi": "Đáp án là 这个 多少 钱."
+        }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "title": "Hỏi đường",
+      "objective": "Hỏi nhà ga ở đâu và hiểu hướng rẽ hay đi thẳng.",
+      "notesVi": "Dùng địa điểm + 在哪里 để hỏi vị trí. Trong chỉ đường, dùng 往 + hướng + 走 hoặc 左转 và 右转. Học cả cụm để dễ nhận ra khi nghe.",
+      "prerequisiteIds": [
+        "lesson-12"
+      ],
+      "itemIds": [
+        "lesson-13-i01",
+        "lesson-13-i02",
+        "lesson-13-i03",
+        "lesson-13-i04",
+        "lesson-13-i05",
+        "lesson-13-i06",
+        "lesson-13-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-13-q01",
+          "type": "meaning_choice",
+          "promptVi": "«车站» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-13-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-13-q01-c03",
+              "label": "rẽ phải"
+            },
+            {
+              "id": "lesson-13-q01-c04",
+              "label": "đi thẳng"
+            },
+            {
+              "id": "lesson-13-q01-c01",
+              "label": "nhà ga, trạm xe"
+            },
+            {
+              "id": "lesson-13-q01-c02",
+              "label": "rẽ trái"
+            }
+          ],
+          "answerIds": [
+            "lesson-13-q01-c01"
+          ],
+          "explanationVi": "车站 (chēzhàn) → nhà ga, trạm xe"
+        },
+        {
+          "id": "lesson-13-q02",
+          "type": "meaning_choice",
+          "promptVi": "«一直走，再左转。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-13-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-13-q02-c02",
+              "label": "nhà ga, trạm xe"
+            },
+            {
+              "id": "lesson-13-q02-c03",
+              "label": "rẽ trái"
+            },
+            {
+              "id": "lesson-13-q02-c04",
+              "label": "rẽ phải"
+            },
+            {
+              "id": "lesson-13-q02-c01",
+              "label": "Đi thẳng, rồi rẽ trái."
+            }
+          ],
+          "answerIds": [
+            "lesson-13-q02-c01"
+          ],
+          "explanationVi": "一直走，再左转。 (Yìzhí zǒu, zài zuǒzhuǎn.) → Đi thẳng, rồi rẽ trái."
+        },
+        {
+          "id": "lesson-13-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-13-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-13-q03-c01",
+              "label": "一直走，再左转。",
+              "itemId": "lesson-13-i07"
+            },
+            {
+              "id": "lesson-13-q03-c02",
+              "label": "车站",
+              "itemId": "lesson-13-i01"
+            },
+            {
+              "id": "lesson-13-q03-c03",
+              "label": "左转",
+              "itemId": "lesson-13-i02"
+            },
+            {
+              "id": "lesson-13-q03-c04",
+              "label": "右转",
+              "itemId": "lesson-13-i03"
+            }
+          ],
+          "answerIds": [
+            "lesson-13-q03-c01"
+          ],
+          "explanationVi": "一直走，再左转。 (Yìzhí zǒu, zài zuǒzhuǎn.) → Đi thẳng, rồi rẽ trái."
+        },
+        {
+          "id": "lesson-13-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Nhà ga ở đâu?».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-13-q04-c02",
+              "label": "在"
+            },
+            {
+              "id": "lesson-13-q04-c03",
+              "label": "哪里"
+            },
+            {
+              "id": "lesson-13-q04-c01",
+              "label": "车站"
+            }
+          ],
+          "answerIds": [
+            "lesson-13-q04-c01",
+            "lesson-13-q04-c02",
+            "lesson-13-q04-c03"
+          ],
+          "explanationVi": "Đáp án là 车站 在 哪里."
+        }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "title": "Hẹn gặp bạn",
+      "objective": "Đề xuất thời gian gặp và dùng một câu để nhận lời.",
+      "notesVi": "Trật tự thường gặp là chủ ngữ + thời gian + hành động. Có thể đặt thời gian ở đầu câu để lấy đó làm chủ đề. Gặp nhau là 见面. Để xác nhận lời hẹn, dùng 好 hoặc 可以.",
+      "prerequisiteIds": [
+        "lesson-13"
+      ],
+      "itemIds": [
+        "lesson-14-i01",
+        "lesson-14-i02",
+        "lesson-14-i03",
+        "lesson-14-i04",
+        "lesson-14-i05",
+        "lesson-14-i06",
+        "lesson-14-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-14-q01",
+          "type": "meaning_choice",
+          "promptVi": "«下午» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-14-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-14-q01-c02",
+              "label": "gặp nhau"
+            },
+            {
+              "id": "lesson-14-q01-c03",
+              "label": "được, có thể"
+            },
+            {
+              "id": "lesson-14-q01-c04",
+              "label": "chúng ta, chúng mình"
+            },
+            {
+              "id": "lesson-14-q01-c01",
+              "label": "buổi chiều"
+            }
+          ],
+          "answerIds": [
+            "lesson-14-q01-c01"
+          ],
+          "explanationVi": "下午 (xiàwǔ) → buổi chiều"
+        },
+        {
+          "id": "lesson-14-q02",
+          "type": "meaning_choice",
+          "promptVi": "«你明天有空吗？» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-14-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-14-q02-c01",
+              "label": "Ngày mai bạn có rảnh không?"
+            },
+            {
+              "id": "lesson-14-q02-c02",
+              "label": "buổi chiều"
+            },
+            {
+              "id": "lesson-14-q02-c03",
+              "label": "gặp nhau"
+            },
+            {
+              "id": "lesson-14-q02-c04",
+              "label": "được, có thể"
+            }
+          ],
+          "answerIds": [
+            "lesson-14-q02-c01"
+          ],
+          "explanationVi": "你明天有空吗？ (Nǐ míngtiān yǒu kòng ma?) → Ngày mai bạn có rảnh không?"
+        },
+        {
+          "id": "lesson-14-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-14-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-14-q03-c04",
+              "label": "可以",
+              "itemId": "lesson-14-i03"
+            },
+            {
+              "id": "lesson-14-q03-c01",
+              "label": "我们下午三点见面吧。",
+              "itemId": "lesson-14-i06"
+            },
+            {
+              "id": "lesson-14-q03-c02",
+              "label": "下午",
+              "itemId": "lesson-14-i01"
+            },
+            {
+              "id": "lesson-14-q03-c03",
+              "label": "见面",
+              "itemId": "lesson-14-i02"
+            }
+          ],
+          "answerIds": [
+            "lesson-14-q03-c01"
+          ],
+          "explanationVi": "我们下午三点见面吧。 (Wǒmen xiàwǔ sān diǎn jiànmiàn ba.) → Chiều ba giờ mình gặp nhau nhé."
+        },
+        {
+          "id": "lesson-14-q04",
+          "type": "order",
+          "promptVi": "Xếp câu theo mẫu chủ ngữ → thời gian → hành động: «Chiều ba giờ mình gặp nhau nhé».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-14-q04-c03",
+              "label": "见面吧"
+            },
+            {
+              "id": "lesson-14-q04-c01",
+              "label": "我们"
+            },
+            {
+              "id": "lesson-14-q04-c02",
+              "label": "下午三点"
+            }
+          ],
+          "answerIds": [
+            "lesson-14-q04-c01",
+            "lesson-14-q04-c02",
+            "lesson-14-q04-c03"
+          ],
+          "explanationVi": "Đáp án là 我们 下午三点 见面吧."
+        }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "title": "Tổng hợp một buổi đi chơi",
+      "objective": "Hẹn giờ, hỏi đường, gọi món và nói lời cảm ơn trong cùng một tình huống.",
+      "notesVi": "Ôn theo tình huống. Rủ bạn tới quán, chốt giờ, hỏi địa điểm rồi gọi món. 先 đặt trước hành động làm trước. 再 đặt trước hành động tiếp theo.",
+      "prerequisiteIds": [
+        "lesson-14"
+      ],
+      "itemIds": [
+        "lesson-15-i01",
+        "lesson-15-i02",
+        "lesson-15-i03",
+        "lesson-15-i04",
+        "lesson-15-i05",
+        "lesson-15-i06",
+        "lesson-15-i07"
+      ],
+      "exercises": [
+        {
+          "id": "lesson-15-q01",
+          "type": "meaning_choice",
+          "promptVi": "«饭店» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-15-i01"
+          ],
+          "choices": [
+            {
+              "id": "lesson-15-q01-c01",
+              "label": "quán ăn, nhà hàng"
+            },
+            {
+              "id": "lesson-15-q01-c02",
+              "label": "trước, trước tiên"
+            },
+            {
+              "id": "lesson-15-q01-c03",
+              "label": "sau đó, nữa"
+            },
+            {
+              "id": "lesson-15-q01-c04",
+              "label": "được, đồng ý"
+            }
+          ],
+          "answerIds": [
+            "lesson-15-q01-c01"
+          ],
+          "explanationVi": "饭店 (fàndiàn) → quán ăn, nhà hàng"
+        },
+        {
+          "id": "lesson-15-q02",
+          "type": "meaning_choice",
+          "promptVi": "«请问，饭店在哪里？» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-15-i07"
+          ],
+          "choices": [
+            {
+              "id": "lesson-15-q02-c04",
+              "label": "sau đó, nữa"
+            },
+            {
+              "id": "lesson-15-q02-c01",
+              "label": "Xin hỏi, quán ăn ở đâu?"
+            },
+            {
+              "id": "lesson-15-q02-c02",
+              "label": "quán ăn, nhà hàng"
+            },
+            {
+              "id": "lesson-15-q02-c03",
+              "label": "trước, trước tiên"
+            }
+          ],
+          "answerIds": [
+            "lesson-15-q02-c01"
+          ],
+          "explanationVi": "请问，饭店在哪里？ (Qǐngwèn, fàndiàn zài nǎlǐ?) → Xin hỏi, quán ăn ở đâu?"
+        },
+        {
+          "id": "lesson-15-q03",
+          "type": "audio_choice",
+          "promptVi": "Nghe đoạn ghi âm rồi chọn chữ đúng.",
+          "itemIds": [
+            "lesson-15-i05"
+          ],
+          "choices": [
+            {
+              "id": "lesson-15-q03-c01",
+              "label": "我们先去饭店，再去车站。",
+              "itemId": "lesson-15-i05"
+            },
+            {
+              "id": "lesson-15-q03-c02",
+              "label": "好，明天下午见！",
+              "itemId": "lesson-15-i06"
+            },
+            {
+              "id": "lesson-15-q03-c03",
+              "label": "请问，饭店在哪里？",
+              "itemId": "lesson-15-i07"
+            }
+          ],
+          "answerIds": [
+            "lesson-15-q03-c01"
+          ],
+          "explanationVi": "我们先去饭店，再去车站。 (Wǒmen xiān qù fàndiàn, zài qù chēzhàn.) → Mình đi quán ăn trước, rồi đến nhà ga."
+        },
+        {
+          "id": "lesson-15-q04",
+          "type": "order",
+          "promptVi": "Xếp câu «Mình đi quán ăn trước, rồi đến nhà ga».",
+          "itemIds": [],
+          "choices": [
+            {
+              "id": "lesson-15-q04-c06",
+              "label": "去车站"
+            },
+            {
+              "id": "lesson-15-q04-c01",
+              "label": "我们"
+            },
+            {
+              "id": "lesson-15-q04-c02",
+              "label": "先"
+            },
+            {
+              "id": "lesson-15-q04-c03",
+              "label": "去"
+            },
+            {
+              "id": "lesson-15-q04-c04",
+              "label": "饭店"
+            },
+            {
+              "id": "lesson-15-q04-c05",
+              "label": "再"
+            }
+          ],
+          "answerIds": [
+            "lesson-15-q04-c01",
+            "lesson-15-q04-c02",
+            "lesson-15-q04-c03",
+            "lesson-15-q04-c04",
+            "lesson-15-q04-c05",
+            "lesson-15-q04-c06"
+          ],
+          "explanationVi": "Đáp án là 我们 先 去 饭店 再 去车站."
+        },
+        {
+          "id": "lesson-15-q05",
+          "type": "meaning_choice",
+          "promptVi": "Ôn lại: «我要一杯茶。» có nghĩa là gì?",
+          "itemIds": [
+            "lesson-11-i06"
+          ],
+          "choices": [
+            {
+              "id": "lesson-15-q05-c01",
+              "label": "Cho mình một ly trà."
+            },
+            {
+              "id": "lesson-15-q05-c02",
+              "label": "Mình đi quán ăn trước, rồi đến nhà ga."
+            },
+            {
+              "id": "lesson-15-q05-c03",
+              "label": "Được, chiều mai gặp!"
+            },
+            {
+              "id": "lesson-15-q05-c04",
+              "label": "Xin hỏi, quán ăn ở đâu?"
+            }
+          ],
+          "answerIds": [
+            "lesson-15-q05-c01"
+          ],
+          "explanationVi": "我要一杯茶。 (Wǒ yào yì bēi chá.) → Cho mình một ly trà."
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lesson-01-i01",
+      "hanzi": "妈",
+      "pinyin": "mā",
+      "vi": "mẹ (cách gọi)",
+      "audio": "audio/e331d617554b0f37ab1c.wav"
+    },
+    {
+      "id": "lesson-01-i02",
+      "hanzi": "麻",
+      "pinyin": "má",
+      "vi": "cây gai",
+      "audio": "audio/2461475506683975f517.wav"
+    },
+    {
+      "id": "lesson-01-i03",
+      "hanzi": "马",
+      "pinyin": "mǎ",
+      "vi": "ngựa",
+      "audio": "audio/a25ee73c98d161721788.wav"
+    },
+    {
+      "id": "lesson-01-i04",
+      "hanzi": "骂",
+      "pinyin": "mà",
+      "vi": "mắng",
+      "audio": "audio/45d31d7e4c504b6d7a31.wav"
+    },
+    {
+      "id": "lesson-01-i05",
+      "hanzi": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "vi": "Xin chào!",
+      "audio": "audio/ecde115cdca96a1a181d.wav"
+    },
+    {
+      "id": "lesson-01-i06",
+      "hanzi": "谢谢！",
+      "pinyin": "Xièxie!",
+      "vi": "Cảm ơn!",
+      "audio": "audio/f03a4b8e1f90dcce273d.wav"
+    },
+    {
+      "id": "lesson-01-i07",
+      "hanzi": "你好，谢谢！",
+      "pinyin": "Nǐ hǎo, xièxie!",
+      "vi": "Xin chào, cảm ơn bạn!",
+      "audio": "audio/384faf0dde5e97f05139.wav"
+    },
+    {
+      "id": "lesson-02-i01",
+      "hanzi": "您好！",
+      "pinyin": "Nín hǎo!",
+      "vi": "Xin chào ạ!",
+      "audio": "audio/8e989869ff32a44631e6.wav"
+    },
+    {
+      "id": "lesson-02-i02",
+      "hanzi": "再见！",
+      "pinyin": "Zàijiàn!",
+      "vi": "Tạm biệt!",
+      "audio": "audio/aa23553133a7ce00317c.wav"
+    },
+    {
+      "id": "lesson-02-i03",
+      "hanzi": "不客气！",
+      "pinyin": "Bú kèqi!",
+      "vi": "Không có gì!",
+      "audio": "audio/98222ab5091d53da0896.wav"
+    },
+    {
+      "id": "lesson-02-i04",
+      "hanzi": "对不起！",
+      "pinyin": "Duìbuqǐ!",
+      "vi": "Xin lỗi!",
+      "audio": "audio/21b2e6e35f79359de710.wav"
+    },
+    {
+      "id": "lesson-02-i05",
+      "hanzi": "没关系！",
+      "pinyin": "Méi guānxi!",
+      "vi": "Không sao!",
+      "audio": "audio/f06f6cf3578d7420c232.wav"
+    },
+    {
+      "id": "lesson-02-i06",
+      "hanzi": "谢谢，再见！",
+      "pinyin": "Xièxie, zàijiàn!",
+      "vi": "Cảm ơn, tạm biệt!",
+      "audio": "audio/ae1c38f1a39eabce8b43.wav"
+    },
+    {
+      "id": "lesson-03-i01",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "vi": "tôi",
+      "audio": "audio/b70bb4acc0484cf040de.wav"
+    },
+    {
+      "id": "lesson-03-i02",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "vi": "bạn",
+      "audio": "audio/a0c7716669b5ded0d805.wav"
+    },
+    {
+      "id": "lesson-03-i03",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "vi": "tên là, gọi là",
+      "audio": "audio/b71852847d38252f4913.wav"
+    },
+    {
+      "id": "lesson-03-i04",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "vi": "tên",
+      "audio": "audio/6773310492a96fcf9603.wav"
+    },
+    {
+      "id": "lesson-03-i05",
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "vi": "gì, cái gì",
+      "audio": "audio/c1b52e0e64a33deadd3a.wav"
+    },
+    {
+      "id": "lesson-03-i06",
+      "hanzi": "我叫小安。",
+      "pinyin": "Wǒ jiào Xiǎo'ān.",
+      "vi": "Mình tên là Tiểu An.",
+      "audio": "audio/931e0ccf3f011b83e63f.wav"
+    },
+    {
+      "id": "lesson-03-i07",
+      "hanzi": "你叫什么名字？",
+      "pinyin": "Nǐ jiào shénme míngzi?",
+      "vi": "Bạn tên là gì?",
+      "audio": "audio/da5f7e0ff07cb3dd9217.wav"
+    },
+    {
+      "id": "lesson-04-i01",
+      "hanzi": "零、一",
+      "pinyin": "líng, yī",
+      "vi": "0, 1",
+      "audio": "audio/dff0fd2a2963edfd603b.wav"
+    },
+    {
+      "id": "lesson-04-i02",
+      "hanzi": "二、三",
+      "pinyin": "èr, sān",
+      "vi": "2, 3",
+      "audio": "audio/62ed673dc4164daa57b8.wav"
+    },
+    {
+      "id": "lesson-04-i03",
+      "hanzi": "四、五",
+      "pinyin": "sì, wǔ",
+      "vi": "4, 5",
+      "audio": "audio/bb27ff15e8d06f4d1bd3.wav"
+    },
+    {
+      "id": "lesson-04-i04",
+      "hanzi": "六、七",
+      "pinyin": "liù, qī",
+      "vi": "6, 7",
+      "audio": "audio/3b14e5d09b42a3590ebe.wav"
+    },
+    {
+      "id": "lesson-04-i05",
+      "hanzi": "八、九",
+      "pinyin": "bā, jiǔ",
+      "vi": "8, 9",
+      "audio": "audio/32ba0cccb533f2ff2d3f.wav"
+    },
+    {
+      "id": "lesson-04-i06",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "vi": "10",
+      "audio": "audio/fc7edd399a5c4b93723e.wav"
+    },
+    {
+      "id": "lesson-04-i07",
+      "hanzi": "一、二、三！",
+      "pinyin": "Yī, èr, sān!",
+      "vi": "Một, hai, ba!",
+      "audio": "audio/edde259d4f10744310e0.wav"
+    },
+    {
+      "id": "lesson-05-i01",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "vi": "quen, biết (một người)",
+      "audio": "audio/1c17dc403125481f9fcb.wav"
+    },
+    {
+      "id": "lesson-05-i02",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "vi": "vui",
+      "audio": "audio/5fcaf1452472773f6a5f.wav"
+    },
+    {
+      "id": "lesson-05-i03",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "vi": "rất",
+      "audio": "audio/f2b91797ea3a71714f6a.wav"
+    },
+    {
+      "id": "lesson-05-i04",
+      "hanzi": "也",
+      "pinyin": "yě",
+      "vi": "cũng",
+      "audio": "audio/658605835bfc7ff8ff23.wav"
+    },
+    {
+      "id": "lesson-05-i05",
+      "hanzi": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "vi": "Rất vui được gặp bạn.",
+      "audio": "audio/8442c46475aada3f1702.wav"
+    },
+    {
+      "id": "lesson-05-i06",
+      "hanzi": "我也很高兴。",
+      "pinyin": "Wǒ yě hěn gāoxìng.",
+      "vi": "Mình cũng rất vui.",
+      "audio": "audio/0b8bf9f60cbd58952900.wav"
+    },
+    {
+      "id": "lesson-06-i01",
+      "hanzi": "十一",
+      "pinyin": "shíyī",
+      "vi": "11",
+      "audio": "audio/41cbc3e287cbeb558153.wav"
+    },
+    {
+      "id": "lesson-06-i02",
+      "hanzi": "二十",
+      "pinyin": "èrshí",
+      "vi": "20",
+      "audio": "audio/e5ec573b3977ce9d55cb.wav"
+    },
+    {
+      "id": "lesson-06-i03",
+      "hanzi": "二十一",
+      "pinyin": "èrshíyī",
+      "vi": "21",
+      "audio": "audio/ab2a21a25bae11231465.wav"
+    },
+    {
+      "id": "lesson-06-i04",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "vi": "mấy",
+      "audio": "audio/bb0d9c666fa88969b9eb.wav"
+    },
+    {
+      "id": "lesson-06-i05",
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "vi": "tuổi",
+      "audio": "audio/43e84a7a98a4fc35a8fc.wav"
+    },
+    {
+      "id": "lesson-06-i06",
+      "hanzi": "你几岁？",
+      "pinyin": "Nǐ jǐ suì?",
+      "vi": "Bạn mấy tuổi?",
+      "audio": "audio/5dabf3893e3a4035b7d8.wav"
+    },
+    {
+      "id": "lesson-06-i07",
+      "hanzi": "我二十岁。",
+      "pinyin": "Wǒ èrshí suì.",
+      "vi": "Mình 20 tuổi.",
+      "audio": "audio/1bdb0e8ef2ed3dfad9b9.wav"
+    },
+    {
+      "id": "lesson-07-i01",
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "vi": "bố",
+      "audio": "audio/d45ce71dd359d0e71e08.wav"
+    },
+    {
+      "id": "lesson-07-i02",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "vi": "mẹ",
+      "audio": "audio/45f1364f08aed1659345.wav"
+    },
+    {
+      "id": "lesson-07-i03",
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "vi": "chị gái",
+      "audio": "audio/d25622289ef32c86a55d.wav"
+    },
+    {
+      "id": "lesson-07-i04",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "vi": "nhà, gia đình",
+      "audio": "audio/c8ae97be80f3867c089e.wav"
+    },
+    {
+      "id": "lesson-07-i05",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "vi": "có",
+      "audio": "audio/90ce0f66f09488f205e5.wav"
+    },
+    {
+      "id": "lesson-07-i06",
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "vi": "miệng, lượng từ đếm người trong gia đình",
+      "audio": "audio/037bb71227fae84821a6.wav"
+    },
+    {
+      "id": "lesson-07-i07",
+      "hanzi": "我家有三口人。",
+      "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+      "vi": "Nhà mình có ba người.",
+      "audio": "audio/1aab8e3dfe61acb2ea35.wav"
+    },
+    {
+      "id": "lesson-08-i01",
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "vi": "hôm nay",
+      "audio": "audio/d5f5a7a010731feb6cc6.wav"
+    },
+    {
+      "id": "lesson-08-i02",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "vi": "ngày mai",
+      "audio": "audio/b1d841b978fb524c350a.wav"
+    },
+    {
+      "id": "lesson-08-i03",
+      "hanzi": "星期",
+      "pinyin": "xīngqī",
+      "vi": "tuần, thứ trong tuần",
+      "audio": "audio/c398134d7d1f58e7c31c.wav"
+    },
+    {
+      "id": "lesson-08-i04",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "vi": "giờ (khi nói mấy giờ)",
+      "audio": "audio/08dddeac1319d6e86030.wav"
+    },
+    {
+      "id": "lesson-08-i05",
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "vi": "bây giờ",
+      "audio": "audio/43584f37c1f4932ff09f.wav"
+    },
+    {
+      "id": "lesson-08-i06",
+      "hanzi": "现在几点？",
+      "pinyin": "Xiànzài jǐ diǎn?",
+      "vi": "Bây giờ là mấy giờ?",
+      "audio": "audio/6feb4bf10432d26ee2c1.wav"
+    },
+    {
+      "id": "lesson-08-i07",
+      "hanzi": "现在两点。",
+      "pinyin": "Xiànzài liǎng diǎn.",
+      "vi": "Bây giờ là hai giờ.",
+      "audio": "audio/37003e225e4b3b353078.wav"
+    },
+    {
+      "id": "lesson-08-i08",
+      "hanzi": "明天星期一。",
+      "pinyin": "Míngtiān xīngqīyī.",
+      "vi": "Ngày mai là thứ Hai.",
+      "audio": "audio/804d959688bca4098ef3.wav"
+    },
+    {
+      "id": "lesson-09-i01",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "vi": "không, à (trợ từ cuối câu hỏi)",
+      "audio": "audio/5ac1612110def2c499ac.wav"
+    },
+    {
+      "id": "lesson-09-i02",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "vi": "là",
+      "audio": "audio/b5141d3d19e9a04855ac.wav"
+    },
+    {
+      "id": "lesson-09-i03",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "vi": "ai",
+      "audio": "audio/056b9c626275cd545ba7.wav"
+    },
+    {
+      "id": "lesson-09-i04",
+      "hanzi": "哪里",
+      "pinyin": "nǎlǐ",
+      "vi": "ở đâu, đâu",
+      "audio": "audio/90924eaa6dde0f68617e.wav"
+    },
+    {
+      "id": "lesson-09-i05",
+      "hanzi": "在",
+      "pinyin": "zài",
+      "vi": "ở, có mặt ở",
+      "audio": "audio/12404a0b638172406b87.wav"
+    },
+    {
+      "id": "lesson-09-i06",
+      "hanzi": "你在家吗？",
+      "pinyin": "Nǐ zài jiā ma?",
+      "vi": "Bạn có ở nhà không?",
+      "audio": "audio/8487dfaf2a394f02fdfd.wav"
+    },
+    {
+      "id": "lesson-09-i07",
+      "hanzi": "你在哪里？",
+      "pinyin": "Nǐ zài nǎlǐ?",
+      "vi": "Bạn đang ở đâu?",
+      "audio": "audio/a98e8598e033452aae7b.wav"
+    },
+    {
+      "id": "lesson-10-i01",
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "vi": "bận",
+      "audio": "audio/963e4f4abf641ba99d8f.wav"
+    },
+    {
+      "id": "lesson-10-i02",
+      "hanzi": "一起",
+      "pinyin": "yìqǐ",
+      "vi": "cùng nhau",
+      "audio": "audio/220ac6c5a3602b7174ed.wav"
+    },
+    {
+      "id": "lesson-10-i03",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "vi": "đi",
+      "audio": "audio/99ae21ea6c39ccc19fba.wav"
+    },
+    {
+      "id": "lesson-10-i04",
+      "hanzi": "喝水",
+      "pinyin": "hē shuǐ",
+      "vi": "uống nước",
+      "audio": "audio/a8720cdfc7de0556d4f0.wav"
+    },
+    {
+      "id": "lesson-10-i05",
+      "hanzi": "你今天忙吗？",
+      "pinyin": "Nǐ jīntiān máng ma?",
+      "vi": "Hôm nay bạn có bận không?",
+      "audio": "audio/19e2cd8c7d4cbd8b8523.wav"
+    },
+    {
+      "id": "lesson-10-i06",
+      "hanzi": "今天不忙。",
+      "pinyin": "Jīntiān bù máng.",
+      "vi": "Hôm nay mình không bận.",
+      "audio": "audio/3c842d8c80428777a227.wav"
+    },
+    {
+      "id": "lesson-10-i07",
+      "hanzi": "一起去喝水吧。",
+      "pinyin": "Yìqǐ qù hē shuǐ ba.",
+      "vi": "Cùng đi uống nước nhé.",
+      "audio": "audio/a9ca8e82c39379737abc.wav"
+    },
+    {
+      "id": "lesson-11-i01",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "vi": "muốn, gọi (món)",
+      "audio": "audio/975f35218ed8782e677d.wav"
+    },
+    {
+      "id": "lesson-11-i02",
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "vi": "ly, lượng từ cho đồ uống",
+      "audio": "audio/c879f9d6cc989f549e8a.wav"
+    },
+    {
+      "id": "lesson-11-i03",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "vi": "trà",
+      "audio": "audio/7e005ba311f86fa76eb0.wav"
+    },
+    {
+      "id": "lesson-11-i04",
+      "hanzi": "碗",
+      "pinyin": "wǎn",
+      "vi": "bát, lượng từ cho phần trong bát",
+      "audio": "audio/41bb76350c7ec2d811b5.wav"
+    },
+    {
+      "id": "lesson-11-i05",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "vi": "cơm",
+      "audio": "audio/e233a13a49e5110647b5.wav"
+    },
+    {
+      "id": "lesson-11-i06",
+      "hanzi": "我要一杯茶。",
+      "pinyin": "Wǒ yào yì bēi chá.",
+      "vi": "Cho mình một ly trà.",
+      "audio": "audio/408ce968467147a924b3.wav"
+    },
+    {
+      "id": "lesson-11-i07",
+      "hanzi": "我要一碗米饭。",
+      "pinyin": "Wǒ yào yì wǎn mǐfàn.",
+      "vi": "Cho mình một bát cơm.",
+      "audio": "audio/a9b2af2139a63ab8a9a7.wav"
+    },
+    {
+      "id": "lesson-12-i01",
+      "hanzi": "这个",
+      "pinyin": "zhège",
+      "vi": "cái này",
+      "audio": "audio/979e2bc35b14bf4c6dfe.wav"
+    },
+    {
+      "id": "lesson-12-i02",
+      "hanzi": "多少",
+      "pinyin": "duōshǎo",
+      "vi": "bao nhiêu",
+      "audio": "audio/fb8f01cb6d4be28b2e0b.wav"
+    },
+    {
+      "id": "lesson-12-i03",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "vi": "tiền",
+      "audio": "audio/0eb863c78da3e38b6b92.wav"
+    },
+    {
+      "id": "lesson-12-i04",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "vi": "tệ (cách nói thông dụng)",
+      "audio": "audio/36d89c8f512d8cce3b7f.wav"
+    },
+    {
+      "id": "lesson-12-i05",
+      "hanzi": "太贵了",
+      "pinyin": "tài guì le",
+      "vi": "đắt quá",
+      "audio": "audio/a61b23275e6eda76630b.wav"
+    },
+    {
+      "id": "lesson-12-i06",
+      "hanzi": "这个多少钱？",
+      "pinyin": "Zhège duōshǎo qián?",
+      "vi": "Cái này bao nhiêu tiền?",
+      "audio": "audio/c1e51d395d513f3ab2aa.wav"
+    },
+    {
+      "id": "lesson-12-i07",
+      "hanzi": "二十块。",
+      "pinyin": "Èrshí kuài.",
+      "vi": "Hai mươi tệ.",
+      "audio": "audio/a2239004cfa713c2476b.wav"
+    },
+    {
+      "id": "lesson-13-i01",
+      "hanzi": "车站",
+      "pinyin": "chēzhàn",
+      "vi": "nhà ga, trạm xe",
+      "audio": "audio/abee017e1b03833b08dc.wav"
+    },
+    {
+      "id": "lesson-13-i02",
+      "hanzi": "左转",
+      "pinyin": "zuǒzhuǎn",
+      "vi": "rẽ trái",
+      "audio": "audio/067d19dd0e427aa16dd8.wav"
+    },
+    {
+      "id": "lesson-13-i03",
+      "hanzi": "右转",
+      "pinyin": "yòuzhuǎn",
+      "vi": "rẽ phải",
+      "audio": "audio/4ff5203b418b6de1cfa0.wav"
+    },
+    {
+      "id": "lesson-13-i04",
+      "hanzi": "一直走",
+      "pinyin": "yìzhí zǒu",
+      "vi": "đi thẳng",
+      "audio": "audio/f4136fc8c36abe1dacbd.wav"
+    },
+    {
+      "id": "lesson-13-i05",
+      "hanzi": "请问",
+      "pinyin": "qǐngwèn",
+      "vi": "xin hỏi",
+      "audio": "audio/42be23d8344a497124dc.wav"
+    },
+    {
+      "id": "lesson-13-i06",
+      "hanzi": "请问，车站在哪里？",
+      "pinyin": "Qǐngwèn, chēzhàn zài nǎlǐ?",
+      "vi": "Xin hỏi, nhà ga ở đâu?",
+      "audio": "audio/3824da44434d13611df6.wav"
+    },
+    {
+      "id": "lesson-13-i07",
+      "hanzi": "一直走，再左转。",
+      "pinyin": "Yìzhí zǒu, zài zuǒzhuǎn.",
+      "vi": "Đi thẳng, rồi rẽ trái.",
+      "audio": "audio/2456295720048d472304.wav"
+    },
+    {
+      "id": "lesson-14-i01",
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "vi": "buổi chiều",
+      "audio": "audio/af81dcf37aa86091075e.wav"
+    },
+    {
+      "id": "lesson-14-i02",
+      "hanzi": "见面",
+      "pinyin": "jiànmiàn",
+      "vi": "gặp nhau",
+      "audio": "audio/65a7e6d1d31fc4b91f6a.wav"
+    },
+    {
+      "id": "lesson-14-i03",
+      "hanzi": "可以",
+      "pinyin": "kěyǐ",
+      "vi": "được, có thể",
+      "audio": "audio/0ef5c86fab94f13a7b7d.wav"
+    },
+    {
+      "id": "lesson-14-i04",
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "vi": "chúng ta, chúng mình",
+      "audio": "audio/bcacb40df81b94b7561a.wav"
+    },
+    {
+      "id": "lesson-14-i05",
+      "hanzi": "有空",
+      "pinyin": "yǒu kòng",
+      "vi": "rảnh",
+      "audio": "audio/f973d5ac51a2c220e505.wav"
+    },
+    {
+      "id": "lesson-14-i06",
+      "hanzi": "我们下午三点见面吧。",
+      "pinyin": "Wǒmen xiàwǔ sān diǎn jiànmiàn ba.",
+      "vi": "Chiều ba giờ mình gặp nhau nhé.",
+      "audio": "audio/50e6dd13b34929f353c8.wav"
+    },
+    {
+      "id": "lesson-14-i07",
+      "hanzi": "你明天有空吗？",
+      "pinyin": "Nǐ míngtiān yǒu kòng ma?",
+      "vi": "Ngày mai bạn có rảnh không?",
+      "audio": "audio/f4638a8aeb0d21730cd6.wav"
+    },
+    {
+      "id": "lesson-15-i01",
+      "hanzi": "饭店",
+      "pinyin": "fàndiàn",
+      "vi": "quán ăn, nhà hàng",
+      "audio": "audio/74ff2d7e528aff0ff38e.wav"
+    },
+    {
+      "id": "lesson-15-i02",
+      "hanzi": "先",
+      "pinyin": "xiān",
+      "vi": "trước, trước tiên",
+      "audio": "audio/27250da81c0a763a938d.wav"
+    },
+    {
+      "id": "lesson-15-i03",
+      "hanzi": "再",
+      "pinyin": "zài",
+      "vi": "sau đó, nữa",
+      "audio": "audio/8aa07f1595bd98d48411.wav"
+    },
+    {
+      "id": "lesson-15-i04",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "vi": "được, đồng ý",
+      "audio": "audio/f867f34178594f891eb7.wav"
+    },
+    {
+      "id": "lesson-15-i05",
+      "hanzi": "我们先去饭店，再去车站。",
+      "pinyin": "Wǒmen xiān qù fàndiàn, zài qù chēzhàn.",
+      "vi": "Mình đi quán ăn trước, rồi đến nhà ga.",
+      "audio": "audio/9f5f10529dbe51a58082.wav"
+    },
+    {
+      "id": "lesson-15-i06",
+      "hanzi": "好，明天下午见！",
+      "pinyin": "Hǎo, míngtiān xiàwǔ jiàn!",
+      "vi": "Được, chiều mai gặp!",
+      "audio": "audio/1b43647ba9da462ab0ac.wav"
+    },
+    {
+      "id": "lesson-15-i07",
+      "hanzi": "请问，饭店在哪里？",
+      "pinyin": "Qǐngwèn, fàndiàn zài nǎlǐ?",
+      "vi": "Xin hỏi, quán ăn ở đâu?",
+      "audio": "audio/1fa4b1c40f41397567fa.wav"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tiếng Trung Từ Đầu — giáo trình phiên bản 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "modules", "lessons", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "modules": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/module" } },
+    "lessons": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/lesson" } },
+    "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/item" } }
+  },
+  "$defs": {
+    "text": { "type": "string", "minLength": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "ids": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+    "module": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "lessonIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/text" },
+        "lessonIds": { "$ref": "#/$defs/ids", "minItems": 1 }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "objective", "prerequisiteIds", "itemIds", "exercises"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "$ref": "#/$defs/text" },
+        "objective": { "$ref": "#/$defs/text" },
+        "notesVi": { "$ref": "#/$defs/text" },
+        "prerequisiteIds": { "$ref": "#/$defs/ids" },
+        "itemIds": { "$ref": "#/$defs/ids", "minItems": 1 },
+        "exercises": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/exercise" } }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "hanzi", "pinyin", "vi", "audio"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "hanzi": { "$ref": "#/$defs/text" },
+        "pinyin": { "$ref": "#/$defs/text" },
+        "vi": { "$ref": "#/$defs/text" },
+        "audio": {
+          "anyOf": [
+            { "type": "string", "pattern": "^audio/[A-Za-z0-9_-]+\\.(wav|mp3|ogg|m4a)$" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "$ref": "#/$defs/text" },
+        "itemId": { "$ref": "#/$defs/id" }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "promptVi", "itemIds", "choices", "answerIds", "explanationVi"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "type": { "enum": ["tone_choice", "audio_choice", "meaning_choice", "order"] },
+        "promptVi": { "$ref": "#/$defs/text" },
+        "itemIds": { "$ref": "#/$defs/ids" },
+        "choices": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/choice" } },
+        "answerIds": { "$ref": "#/$defs/ids", "minItems": 1 },
+        "explanationVi": { "$ref": "#/$defs/text" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "enum": ["tone_choice", "audio_choice"] } } },
+          "then": { "properties": { "itemIds": { "minItems": 1, "maxItems": 1 } } }
+        },
+        {
+          "if": { "properties": { "type": { "const": "order" } } },
+          "else": { "properties": { "answerIds": { "maxItems": 1 } } }
+        }
+      ]
+    }
+  }
+}
